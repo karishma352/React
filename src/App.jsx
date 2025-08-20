@@ -1,13 +1,40 @@
+// import Second from "./second";
 
-import Second from "./second"
-function App(){
-  return(
-  <div>
-    <Second/>
-    <h1>FIRST REACT</h1>
-    <h2>LINKING ANOTHER JSX FILE</h2>
-  </div>
-  )
+function First() {
+  return (
+    <div>
+      {/* <Second /> */}
+      <p>this is test for bootstrap</p>
+      <button type="button" class="btn btn-primary">
+        Primary
+      </button>
+      <button type="button" class="btn btn-secondary">
+        Secondary
+      </button>
+      <button type="button" class="btn btn-success">
+        Success
+      </button>
+      <button type="button" class="btn btn-danger">
+        Danger
+      </button>
+      <button type="button" class="btn btn-warning">
+        Warning
+      </button>
+      <button type="button" class="btn btn-info">
+        Info
+      </button>
+      <button type="button" class="btn btn-light">
+        Light
+      </button>
+      <button type="button" class="btn btn-dark">
+        Dark
+      </button>
+
+      <button type="button" class="btn btn-link">
+        Link
+      </button>
+    </div>
+  );
 }
 
-export default App
+export default First;
