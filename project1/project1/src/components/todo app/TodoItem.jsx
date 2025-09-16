@@ -1,9 +1,9 @@
-function TodoItem() {
+function TodoItem(props) {
   return (
     <li className="item">
       <span>
-        <input type="checkbox" />
-        <span>task1 </span>
+        {props.completed ? <></> : <input type="checkbox" />}
+        <span>{props.item} </span>
       </span>
 
       <p>...</p>
@@ -11,3 +11,5 @@ function TodoItem() {
   );
 }
 export default TodoItem;
+
+//completed ek boolean property h , yha pe humne use kiya kyuki agar task ho gya toh checkbox hide karo else show karo

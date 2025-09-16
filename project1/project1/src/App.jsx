@@ -8,12 +8,12 @@ function App() {
     <div>
       <h1>TODO APP</h1>
       <div className="container">
-        <Header />
-        <TodoItem />
-        <TodoItem />
-        <TodoItem />
-        <TodoItem />
-        <TodoItem />
+        <Header title="Todo" />
+        <TodoItem item="task1" />
+        <TodoItem item="task2" />
+        <TodoItem item="task3" />
+        <TodoItem item="task4" />
+        <TodoItem item="task5" />
         <Button />
       </div>
     </div>
